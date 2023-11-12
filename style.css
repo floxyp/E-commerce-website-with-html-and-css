@@ -46,7 +46,6 @@ nav ul li{
     margin-right: 20px;
 }
 nav ul li:hover{
-    text-decoration: underline;
     color:black;
 }
 
@@ -57,7 +56,7 @@ a{
 
 }
 a:hover{
-    color:#9B77E7;
+    color:#fff;
 }
 
 
@@ -68,7 +67,7 @@ a:hover{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    background-image: url(./media/images/fluffy\ rug.jpg);
+    background-image: url(./media/images/background2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     /* filter: brightness(80%); */
@@ -98,8 +97,8 @@ a:hover{
     margin: 25px 50px;
     /* color: #9B77E7; */
 }
-.col p{
-    font-size: 20px;
+.col h4{
+    font-size: 15px;
     margin-left: 50px;
     color: black;
 
