@@ -23,11 +23,12 @@ body{
 
 .logo {
     display: flex;
-    cursor: pointer;
 }
 .logo img{
     margin-left: 20px;
     border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 
 nav{
@@ -44,6 +45,10 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
+nav ul li:hover{
+    text-decoration: underline;
+    color:black;
+}
 
 a{
     font-size: 15px;
@@ -51,6 +56,11 @@ a{
     color:black;
 
 }
+a:hover{
+    color:#9B77E7;
+}
+
+
 
 
 .container {
@@ -58,6 +68,10 @@ a{
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    background-image: url(./media/images/fluffy\ rug.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* filter: brightness(80%); */
 }
 .row {
     display: flex;
@@ -74,6 +88,7 @@ a{
 .col img {
     max-width: 100%;
     padding: 50px 50px;
+    border-radius: 10px;
     
 }
 
@@ -81,17 +96,19 @@ a{
     font-size: 45px;
     line-height: 60px;
     margin: 25px 50px;
-    color: #9B77E7;
+    /* color: #9B77E7; */
 }
 .col p{
     font-size: 20px;
     margin-left: 50px;
     color: black;
+
 }
 
 .btn {
     display: inline-block;
-    background: #9B77E7;
+    /* background: #9B77E7; */
+    background: black;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 50px;
@@ -108,3 +125,5 @@ a{
 .firstpage .row {
     margin-top: 35px;
 }
+
+
